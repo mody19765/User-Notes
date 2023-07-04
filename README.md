@@ -16,7 +16,7 @@ user can create one or many notes and edit them (Update, Delete)
    - Validation=>Check if the Date is Valid or not
 <br>
 
-**=>Models**: all Schema in the project
+**=>Models**: All collection in the project we have 2 collection
    - User-Model
    - Notes-Model
 <br>
