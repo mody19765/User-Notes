@@ -16,9 +16,17 @@ user can create one or many notes and edit them (Update, Delete)
    - Validation=>Check if the Date is Valid or not
 <br>
 
-**=>Models**: All collection in the project we have 2 collection
+**=>Models**:  All collections we have  in my project, we have 2 collection
    - User-Model
+     - name
+     - email
+     - password
+     - age
+
    - Notes-Model
+     - title
+     - description
+     - createdBy
 <br>
 
 **=>Services**: all Services of endpoints
