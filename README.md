@@ -30,7 +30,7 @@ user can create one or many notes and edit them (Update, Delete)
 <br>
 
 **=>Services**: all Services of endpoints
-   - login=>
+   - login
      - sign in
      - signup 
    - Notes-Model
