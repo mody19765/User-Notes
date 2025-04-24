@@ -1,30 +1,22 @@
+# 📝 User-Notes API
+
+A full-featured Notes Management REST API built with **Node.js**, **Express**, and **MongoDB**, designed for seamless note-taking experiences with robust **authentication**, **authorization**, and **role-based access control**.
 
 ---
 
-### 📁 User Notes App  
-👉 [GitHub Repo](https://github.com/mody19765/User-Notes-App)
+## 🚀 Features
 
-```markdown
-# 📝 User Notes App
+- 🔐 JWT Authentication (Login / Signup)
+- 👤 User Roles: `user` & `admin`
+- 🧾 Notes CRUD: Create, Read, Update, Delete
+- 👮 Role-based Access Control:
+  - Admins can add users
+  - Users can only manage their own notes
+- ✔️ Data Validation using Joi
+- 🧠 Well-structured controllers, services, routes
+- 📂 Clean modular folder structure
 
-A secure and minimal note-taking backend system where users can sign in and manage personal notes with full CRUD functionality.
+---
 
-## ✨ Key Features
-- **JWT Authentication**: Secure login and token-based access.
-- **Notes CRUD**: Create, update, delete, and fetch personal notes.
-- **MongoDB Storage**: Notes saved with performance and scalability.
-- **Middleware Validation**: Clean request validation for user data.
+## 📁 Project Structure
 
-## 🛠 Technologies Used
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Authentication**: JWT
-- **API Style**: RESTful
-
-## 🚀 Getting Started
-```bash
-git clone https://github.com/mody19765/User-Notes-App
-cd User-Notes-App
-npm install
-# Configure .env for MongoDB and JWT_SECRET
-npm start
